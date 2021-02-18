@@ -4,10 +4,11 @@
     box-shadow: 1px 1px 6px  rgba(0,0,0,0.5);
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 
 .container{
-    width: 60%;
+    width: 55%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -50,7 +51,18 @@
     align-items: center;
 }
 
-.icons .MuiAvatar-root{
+.icon .MuiAvatar-root{
     width: 25px;
     height: 25px;
+    cursor: pointer;
 }
+
+.icon .MuiSvgIcon-root{
+    cursor: pointer;
+}
+
+
+.icon:active .MuiSvgIcon-root{
+    color: grey;
+}
+
