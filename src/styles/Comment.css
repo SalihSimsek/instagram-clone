@@ -1,0 +1,25 @@
+.comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment_left {
+  display: flex;
+  align-items: center;
+}
+
+.comment_left h5 {
+  padding: 10px 10px 5px 0;
+  font-size: 14px;
+}
+
+.comment_left h6 {
+  font-weight: 400;
+  font-size: 12px;
+  padding: 10px 10px 5px 0;
+}
+
+.comment_right .MuiSvgIcon-root{
+    font-size: 20px;
+}

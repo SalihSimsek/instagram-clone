@@ -10,7 +10,9 @@ import SendOutlinedIcon from "@material-ui/icons/SendOutlined";
 import TurnedInNotOutlinedIcon from "@material-ui/icons/TurnedInNotOutlined";
 import SentimentSatisfiedOutlinedIcon from "@material-ui/icons/SentimentSatisfiedOutlined";
 
-const Post = ({postImage}) => {
+import Comment from "./Comment";
+
+const Post = ({ postImage }) => {
   return (
     <div className="post">
       <div className="post_top">
@@ -40,17 +42,20 @@ const Post = ({postImage}) => {
         </div>
         <div className="post_bottomCenter">
           <div className="post_bottomCenter_likes">
-            <h4>122 like</h4>
+            <h4>122 likes</h4>
           </div>
-          <div className="post_bottomCenter_comments">
-            <h5>salihfsimsek</h5>
-            <h6>Güzeeel</h6>
+          <div className="post_bottomCenter_description">
+            <Comment username="salihfsimsek" comment="nice" />
+            <Comment username="salihsimsek" comment="woooow" heart />
+            <div>
+              <h5 className="description_time">6 hours ago</h5>
+            </div>
           </div>
         </div>
         <div className="post_bottomBottom">
           <form className="comment_form">
             <SentimentSatisfiedOutlinedIcon />
-            <input type="text" placeholder="Add a comment"/>
+            <input type="text" placeholder="Add a comment" />
             <button>Send</button>
           </form>
         </div>

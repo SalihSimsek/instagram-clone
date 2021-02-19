@@ -4,6 +4,7 @@ import "../styles/Content.css";
 
 import Story from './Story'
 import Post from './Post'
+import Card from './Card'
 const Content = () => {
   const stories = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 
@@ -23,7 +24,7 @@ const Content = () => {
         </div>
       </div>
       <div className="content_right">
-        <div></div>
+      <Card />
       </div>
     </div>
   );

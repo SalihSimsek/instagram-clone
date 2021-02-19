@@ -1,0 +1,72 @@
+.card_top {
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar{
+    height: 56px;
+    min-width: 56px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0px 20px;
+}
+
+.fullname{
+    color:grey;
+    font-weight: 400;
+}
+
+.card_bottom{
+    margin: 0px 20px;
+}
+
+.card_bottomTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_bottomTop h5{
+    color:grey;
+}
+
+.suggestion_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.suggestion_card_left{
+    height: 35px;
+    width: 35px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.suggestion_card_center h4{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.suggestion_card_center h5{
+    font-weight: 600;
+    font-size: 12px;
+    color: grey
+}
+
+.suggestion_card_right h5{
+    color: blue
+}
+
+.card_bottomBottom{
+    margin: 20px 0;
+}
+
+.card_bottomBottom h5{
+    color:grey;
+}
