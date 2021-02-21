@@ -12,13 +12,13 @@ import SentimentSatisfiedOutlinedIcon from "@material-ui/icons/SentimentSatisfie
 
 import Comment from "./Comment";
 
-const Post = ({ postImage }) => {
+const Post = ({ post }) => {
   return (
     <div className="post">
       <div className="post_top">
         <div className="post_top_left">
           <Avatar src="https://instagram.fist6-2.fna.fbcdn.net/v/t51.2885-19/s150x150/45272559_1988360334585183_7363615059831947264_n.jpg?_nc_ht=instagram.fist6-2.fna.fbcdn.net&_nc_ohc=L85Jz2IApt8AX-45JLO&tp=1&oh=037376beb01001f4e7d0629d2d0eb449&oe=60572FD9" />
-          <h5>salihfsimsek</h5>
+          <h5>{post.user}</h5>
         </div>
         <div className="post_top_right">
           <MoreHorizIcon />
@@ -26,7 +26,7 @@ const Post = ({ postImage }) => {
       </div>
       <div className="post_center">
         <div className="post_center_image">
-          <img src={postImage} alt="" />
+          <img src={post.photo} alt="" />
         </div>
       </div>
       <div className="post_bottom">
@@ -44,9 +44,13 @@ const Post = ({ postImage }) => {
           <div className="post_bottomCenter_likes">
             <h4>122 likes</h4>
           </div>
+          <Comment username={post.user} comment={post.description} />
           <div className="post_bottomCenter_description">
-            <Comment username="salihfsimsek" comment="nice" />
-            <Comment username="salihsimsek" comment="woooow" heart />
+            {
+              post.comments.map(comment=>(
+                <Comment key={comment.id} username={comment.name} comment={comment.text} heart/>
+              ))
+            }
             <div>
               <h5 className="description_time">6 hours ago</h5>
             </div>

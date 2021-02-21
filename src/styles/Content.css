@@ -24,6 +24,44 @@
   display: none;
 }
 
+.content_left_inputs{
+  width: 100%;
+  height: 130px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.inputs{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.inputs input{
+  width: 45%;
+  height: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  outline: none;
+  background: #fafafa;
+}
+
+.share{
+  width: 93%;
+  margin: 0 auto;
+}
+
+.share button{
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border:none;
+  outline: none;
+}
+
 .content_left_posts {
   margin-top: 20px;
   min-height: 90vh;
