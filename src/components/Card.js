@@ -9,7 +9,7 @@ const Card = () => {
         <div
           className="avatar"
           style={{
-            backgroundImage: `url("https://instagram.fist6-2.fna.fbcdn.net/v/t51.2885-19/s150x150/45272559_1988360334585183_7363615059831947264_n.jpg?_nc_ht=instagram.fist6-2.fna.fbcdn.net&_nc_ohc=L85Jz2IApt8AX-45JLO&tp=1&oh=037376beb01001f4e7d0629d2d0eb449&oe=60572FD9")`,
+            backgroundImage: `url("https://avatars.githubusercontent.com/u/49563074?s=400&u=808487d6deb62cf89830a976743e6c6e601180c8&v=4")`,
           }}
         ></div>
         <div className="username_fullname">
@@ -26,12 +26,12 @@ const Card = () => {
           <div className="suggestion_card">
             <div className="suggestion_card_left"
                 style={{
-                  backgroundImage: `url("https://instagram.fist6-2.fna.fbcdn.net/v/t51.2885-19/s150x150/45272559_1988360334585183_7363615059831947264_n.jpg?_nc_ht=instagram.fist6-2.fna.fbcdn.net&_nc_ohc=L85Jz2IApt8AX-45JLO&tp=1&oh=037376beb01001f4e7d0629d2d0eb449&oe=60572FD9")`,
+                  backgroundImage: `url("https://avatars.githubusercontent.com/u/49563074?s=400&u=808487d6deb62cf89830a976743e6c6e601180c8&v=4")`,
                 }}>
             </div>
             <div className="suggestion_card_center">
                 <h4>username</h4>
-                <h5>commen_friend + 24 others</h5>
+                <h5>name + 24 others</h5>
             </div>
             <div className="suggestion_card_right">
                 <h5>Follow</h5>
@@ -40,12 +40,12 @@ const Card = () => {
           <div className="suggestion_card">
             <div className="suggestion_card_left"
                 style={{
-                  backgroundImage: `url("https://instagram.fist6-2.fna.fbcdn.net/v/t51.2885-19/s150x150/45272559_1988360334585183_7363615059831947264_n.jpg?_nc_ht=instagram.fist6-2.fna.fbcdn.net&_nc_ohc=L85Jz2IApt8AX-45JLO&tp=1&oh=037376beb01001f4e7d0629d2d0eb449&oe=60572FD9")`,
+                  backgroundImage: `url("https://avatars.githubusercontent.com/u/49563074?s=400&u=808487d6deb62cf89830a976743e6c6e601180c8&v=4")`,
                 }}>
             </div>
             <div className="suggestion_card_center">
                 <h4>username</h4>
-                <h5>commen_friend + 24 others</h5>
+                <h5>name + 24 others</h5>
             </div>
             <div className="suggestion_card_right">
                 <h5>Follow</h5>
@@ -54,12 +54,12 @@ const Card = () => {
           <div className="suggestion_card">
             <div className="suggestion_card_left"
                 style={{
-                  backgroundImage: `url("https://instagram.fist6-2.fna.fbcdn.net/v/t51.2885-19/s150x150/45272559_1988360334585183_7363615059831947264_n.jpg?_nc_ht=instagram.fist6-2.fna.fbcdn.net&_nc_ohc=L85Jz2IApt8AX-45JLO&tp=1&oh=037376beb01001f4e7d0629d2d0eb449&oe=60572FD9")`,
+                  backgroundImage: `url("https://avatars.githubusercontent.com/u/49563074?s=400&u=808487d6deb62cf89830a976743e6c6e601180c8&v=4")`,
                 }}>
             </div>
             <div className="suggestion_card_center">
                 <h4>username</h4>
-                <h5>commen_friend + 24 others</h5>
+                <h5>name + 24 others</h5>
             </div>
             <div className="suggestion_card_right">
                 <h5>Follow</h5>
@@ -68,12 +68,12 @@ const Card = () => {
           <div className="suggestion_card">
             <div className="suggestion_card_left"
                 style={{
-                  backgroundImage: `url("https://instagram.fist6-2.fna.fbcdn.net/v/t51.2885-19/s150x150/45272559_1988360334585183_7363615059831947264_n.jpg?_nc_ht=instagram.fist6-2.fna.fbcdn.net&_nc_ohc=L85Jz2IApt8AX-45JLO&tp=1&oh=037376beb01001f4e7d0629d2d0eb449&oe=60572FD9")`,
+                  backgroundImage: `url("https://avatars.githubusercontent.com/u/49563074?s=400&u=808487d6deb62cf89830a976743e6c6e601180c8&v=4")`,
                 }}>
             </div>
             <div className="suggestion_card_center">
                 <h4>username</h4>
-                <h5>commen_friend + 24 others</h5>
+                <h5>name + 24 others</h5>
             </div>
             <div className="suggestion_card_right">
                 <h5>Follow</h5>

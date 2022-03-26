@@ -11,7 +11,7 @@ const Profile = () => {
           <div
             className="avatar"
             style={{
-              backgroundImage: `url("https://instagram.fist6-2.fna.fbcdn.net/v/t51.2885-19/s150x150/45272559_1988360334585183_7363615059831947264_n.jpg?_nc_ht=instagram.fist6-2.fna.fbcdn.net&_nc_ohc=up-ybZzcorAAX-KmVAY&tp=1&oh=499b084eac951b45234e86f096b00ad1&oe=605B2459")`,
+              backgroundImage: `url("https://avatars.githubusercontent.com/u/49563074?s=400&u=808487d6deb62cf89830a976743e6c6e601180c8&v=4")`,
             }}
           ></div>
         </div>
